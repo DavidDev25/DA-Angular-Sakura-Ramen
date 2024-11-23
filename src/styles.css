@@ -11,7 +11,6 @@
   font-weight: 400;
   src: url("./assets/fonts/raleway-v34-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
 .fontRaleway {
   font-family: "Raleway";
   font-weight: 400;
@@ -20,4 +19,4 @@
 .fontRalewayBold {
   font-family: "Raleway";
   font-weight: bold;
-}
+}/*# sourceMappingURL=styles.css.map */
