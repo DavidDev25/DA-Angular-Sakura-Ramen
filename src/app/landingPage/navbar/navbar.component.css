@@ -15,7 +15,6 @@ nav > img {
   height: 64px;
 }
 nav > div {
-  width: 350px;
   display: flex;
 }
 nav > div > a:hover {
@@ -31,4 +30,4 @@ nav > div > a:hover {
 }
 .phone_btn > a {
   border-radius: 0.0625rem solid;
-}/*# sourceMappingURL=navbar.component.css.map */
+} /*# sourceMappingURL=navbar.component.css.map */
