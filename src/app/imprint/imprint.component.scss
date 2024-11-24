@@ -1,0 +1,25 @@
+section {
+  font-size: 1.125rem;
+
+  svg {
+    width: 6.75rem;
+    height: 6.75rem;
+    cursor: pointer;
+    margin-inline: 20px;
+  }
+  .header,
+  .address,
+  .representedBy,
+  .contact {
+    margin-block: 1rem;
+    margin-inline: 2.5rem;
+  }
+  h3 {
+    font-size: 30px;
+    margin-block: 16px;
+  }
+  h2 {
+    font-size: 40px;
+    margin-block: 16px;
+  }
+}
