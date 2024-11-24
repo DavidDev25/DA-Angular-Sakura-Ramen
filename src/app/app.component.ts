@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { LandingPageComponent } from './landingPage/landingPage.component';
-import { OurMenuComponentComponent } from './our-menu-component/our-menu-component.component'; // Specify weight and style
+import { HowToOrderComponent } from './howToOrder/how-to-order.component'; // Specify weight and style
 import '@fontsource/raleway'; // Defaults to weight 400
 import '@fontsource/raleway/400.css'; // Specify weight
 import '@fontsource/raleway/400-italic.css';
+import { OurMenuComponent } from './our-menu/our-menu.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -13,7 +14,8 @@ import '@fontsource/raleway/400-italic.css';
     CommonModule,
     RouterOutlet,
     LandingPageComponent,
-    OurMenuComponentComponent,
+    HowToOrderComponent,
+    OurMenuComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
