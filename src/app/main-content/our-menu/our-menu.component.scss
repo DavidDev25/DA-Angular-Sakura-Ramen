@@ -1,0 +1,66 @@
+section {
+  background-image: url(../../../assets/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  padding: 7.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  > h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 5rem;
+    color: #9f0908;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+  }
+
+  .firstDish,
+  .secondDish,
+  .thirdDish {
+    > h3 {
+      font-family: Economica;
+      font-weight: bold;
+      font-size: 3.5rem;
+    }
+
+    > img {
+      width: 22rem;
+      height: 22rem;
+    }
+  }
+
+  .food-selection {
+    display: flex;
+    align-items: center;
+  }
+
+  .firstDish,
+  .secondDish,
+  .thirdDish {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 56px;
+  }
+
+  .secondDish {
+    flex-direction: row-reverse;
+  }
+
+  table {
+    > th {
+      font-family: Economica;
+      font-size: 3.5rem;
+      font-weight: bold;
+      padding-bottom: 1rem;
+    }
+    > tr {
+      font-family: Raleway;
+      font-weight: bold;
+      font-size: 2rem;
+      color: #675e54;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+footer {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0a141e;
+  height: 9rem;
+  > img {
+    height: 2.75rem;
+  }
+
+  .imprint {
+    text-decoration: none;
+    font-size: 1.875rem;
+    color: white;
+  }
+
+  .socials {
+    display: flex;
+    gap: 0.625rem;
+    > img {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}
