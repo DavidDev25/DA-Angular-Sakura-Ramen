@@ -18,6 +18,11 @@ section {
   .firstDish,
   .secondDish,
   .thirdDish {
+    // width: 100rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-bottom: 56px;
     > h3 {
       font-family: Economica;
       font-weight: bold;
@@ -35,32 +40,26 @@ section {
     align-items: center;
   }
 
-  .firstDish,
-  .secondDish,
-  .thirdDish {
-    display: flex;
-    gap: 5rem;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 56px;
-  }
-
   .secondDish {
     flex-direction: row-reverse;
   }
 
   table {
+    width: 40rem;
     > th {
       font-family: Economica;
       font-size: 3.5rem;
       font-weight: bold;
       padding-bottom: 1rem;
+      text-align: left;
     }
     > tr {
       font-family: Raleway;
       font-weight: bold;
       font-size: 2rem;
       color: #675e54;
+    }
+    > td {
     }
   }
 }

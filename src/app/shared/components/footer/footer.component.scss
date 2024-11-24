@@ -1,25 +1,23 @@
 footer {
   padding: 2.5rem;
-  display: flex;
-  justify-content: space-between;
   background-color: #0a141e;
   height: 9rem;
-  > img {
-    height: 2.75rem;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1440px;
+    width: 100%;
+    > img {
+      height: 2.75rem;
+    }
   }
 
   .imprint {
     text-decoration: none;
-    font-size: 1.875rem;
+    font-size: 2.625rem;
     color: white;
-  }
-
-  .socials {
-    display: flex;
-    gap: 0.625rem;
-    > img {
-      width: 2.5rem;
-      height: 2.5rem;
-    }
   }
 }
