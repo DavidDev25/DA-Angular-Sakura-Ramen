@@ -2,10 +2,12 @@ section {
   font-size: 1.125rem;
 
   svg {
-    width: 6.75rem;
-    height: 6.75rem;
+    margin-block: 1rem;
+    margin-inline: 1.25rem;
+    width: 3.75rem;
+    height: 3.75rem;
     cursor: pointer;
-    margin-inline: 20px;
+    margin-inline: 1.25rem;
   }
   .header,
   .address,
@@ -15,11 +17,11 @@ section {
     margin-inline: 2.5rem;
   }
   h3 {
-    font-size: 30px;
-    margin-block: 16px;
+    font-size: 1.875rem;
+    margin-block: 1rem;
   }
   h2 {
-    font-size: 40px;
-    margin-block: 16px;
+    font-size: 1rem;
+    margin-block: 1rem;
   }
 }
